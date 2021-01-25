@@ -7,10 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>Newsweek</title>
   </head>
-<body> 
+<body>
  <header>
    <div class="container">
      <div class="row bg-danger">
@@ -27,7 +28,7 @@
          <button type="button" class="btn btn-warning">SUBSCRIBE</button>
        </div>
       </div>
-      <div class="row border-bottom border-dark">
+      <div class="row border-bottom border-dark dispinla">
         <nav class="navbar navbar-expand-lg">
           <ul class="navbar-nav d-flex justify-content-between">
             <li class="nav-link border-right border-dark">U.S</li>
@@ -45,7 +46,7 @@
           </ul>
         </nav>
       </div>
-      <div class="row border-bottom border-dark">
+      <div class="row border-bottom border-dark dispinla">
         <nav class="navbar navbar-expand-lg">
           <ul class="navbar-nav d-flex justify-content-between">
             <li class="nav-link border-right border-dark">TRENDING</li>
@@ -63,48 +64,60 @@
  </header>
  <div class="jumbotron"></div>
  <footer>
-   <div class="row">
-     <div class=""
-     
-       <img src="assets/images/newsweek-vector-logo.png">
-       <p class="col">© 2021 NEWSWEEK DIGITAL LLC</p>
-
-       
-         <div class="">
-            <i class="fab fa-facebook-square" aria-hidden="true"></i>        
-            <i class="fab fa-twitter" aria-hidden="true"></i>        
-            <i class="fab fa-instagram" aria-hidden="true"></i>        
-            <i class="fab fa-tumblr"></i>        
-            <i class="fab fa-linkedin-in"></i>
+   <div class="px-2">
+     <div class="d-flex flex-wrap justify-content-between align-items-baseline border-bottom border-dark pb-3">
+       <div class="d-flex flex-wrap align-items-baseline">
+         <img class="logobtmm" src="assets/images/newsweek-vector-logo.png" alt="">
+         <span>© 2021 NEWSWEEK DIGITAL LLC</span>
+       </div>
+       <div ml-auto>
+         <div class="d-flex justify-content-between">
+           <div class="mx-2">
+             <i class="fab fa-facebook-square" aria-hidden="true"></i>
+           </div>
+           <div class="mx-2">
+             <i class="fab fa-twitter" aria-hidden="true"></i>
+           </div>
+           <div class="mx-2">
+             <i class="fab fa-instagram" aria-hidden="true"></i>
+           </div>
+           <div class="mx-2">
+             <i class="fab fa-tumblr"></i>
+           </div>
+           <div class="mx-2">
+             <i class="fab fa-linkedin-in"></i>
+           </div>
          </div>
-       
-    
-   </div>
-   <div class="container">
-     <ul class="row justify-content-start">
-         <li class="col-1"><h5>Editions</h5></li>
-         <li class="col-1">U.S Edition</li>
-         <li class="col-1">日本</li>
-         <li class="col-1">Pakistan</li>
-         <li class="col-1">Polska</li>
-         <li class="col-1">Romånia</li>         
-       </ul>
-     
-       <ul class="row">
-         <li class="col">About Us</li>
-         <li class="col">Corrections</li>
-         <li class="col">Contact Us</li>
-         <li class="col">Editorial Guidelines</li>
-         <li class="col">Advertise</li>
-         <li class="col">Copyright</li>
-         <li class="col">Terms and Conditions</li>
-         <li class="col">Privacy Policy</li>
-         <li class="col">Cookie Policy</li>
-         <li class="col">Terms of Sale</li>
-         <li class="col">Archive</li>
-         <li class="col">Announcements</li>
-       </ul>
-     
+       </div>
+     </div>
+     <div>
+       <div class="d-flex">
+         <h5>Editions</h5>
+         <div class="d-flex flex-wrap">
+           <div class="mx-2 border-right border-dark pr-1">U.S Edition</div>
+           <div class="mx-2 border-right border-dark pr-1">日本</div>
+           <div class="mx-2 border-right border-dark pr-1">Pakistan</div>
+           <div class="mx-2 border-right border-dark pr-1">Polska</div>
+           <div class="mx-2 border-right border-dark pr-1">Romånia</div>
+         </div>
+       </div>
+       <div>
+         <div class="d-flex flex-wrap">
+           <div class="mx-2 border-right border-dark pr-1">About Us</div>
+           <div class="mx-2 border-right border-dark pr-1">Corrections</div>
+           <div class="mx-2 border-right border-dark pr-1">Contact Us</div>
+           <div class="mx-2 border-right border-dark pr-1">Editorial Guidedivnes</div>
+           <div class="mx-2 border-right border-dark pr-1">Advertise</div>
+           <div class="mx-2 border-right border-dark pr-1">Copyright</div>
+           <div class="mx-2 border-right border-dark pr-1">Terms and Conditions</div>
+           <div class="mx-2 border-right border-dark pr-1">Privacy Policy</div>
+           <div class="mx-2 border-right border-dark pr-1">Cookie Policy</div>
+           <div class="mx-2 border-right border-dark pr-1">Terms of Sale</div>
+           <div class="mx-2 border-right border-dark pr-1">Archive</div>
+           <div class="mx-2 border-right border-dark pr-1">Announcements</div>
+         </div>
+       </div>
+     </div>
    </div>
  </footer>
 
@@ -115,4 +128,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-</html> 
+</html>
