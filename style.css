@@ -1,6 +1,7 @@
-.logobtmm{
+.logobtmm {
   max-width: 450px;
 }
+
 @media only screen and (max-width: 1024px) {
   .dispinla {
     display: none;
