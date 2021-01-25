@@ -2,6 +2,10 @@
   max-width: 450px;
 }
 
+.mainNav {
+  background-color: #f72210;
+}
+
 @media only screen and (max-width: 1024px) {
   .dispinla {
     display: none;
