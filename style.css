@@ -5,6 +5,7 @@
 .mainNav {
   background-color: #f72210;
 }
+
 .c-position-bl {
   position: absolute;
   bottom: 0;
@@ -16,7 +17,7 @@
   width: 95px;
 }
 
-.TabletCent{
+.TabletCent {
   max-width: 500px;
   margin: auto;
 }
