@@ -11,6 +11,11 @@
   left: 0;
 }
 
+.seventyfive-sq {
+  height: 95px;
+  width: 95px;
+}
+
 @media only screen and (min-width: 992px) {
   .logo {
     max-width: 396px;
