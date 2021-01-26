@@ -24,29 +24,28 @@
     <title>Newsweek</title>
   </head>
   <body>
-    <header>
+    <header >
       <div class="container">
-        <div class="row align-items-baseline mainNav">
-          <div class="col-2 text-white">
+        <div class="d-flex flex-row justify-content-between align-items-baseline mainNav">
+          <div class="d-none d-lg-block text-white pl-3">
             Wed, Jan 20, 2021
           </div>
-          <div class="col">
+          <div class="">
             <img
               src="assets/images/Newsweek_Logo.svg"
-              class="img-fluid"
+              class="logo img-fluid"
               alt="Responsive image"
             />
           </div>
-          <div class="col-1 text-white font-weight-bold">
-            LOGIN
-          </div>
-          <div class="col-2">
-            <button type="button" class="btn btn-warning font-weight-bold">SUBSCRIBE <i class="fas fa-angle-right"></i></button>
+          <div class="d-flex align-items-baseline">
+            <p class="text-white font-weight-bold px-3 py-0">LOGIN</p>
+          
+            <button type="button" class="btn-warning font-weight-bold mr-3">SUBSCRIBE <i class="fas fa-angle-right"></i></button>
           </div>
         </div>
-        <div class="row border-bottom border-dark dispinla">
-          <nav class="navbar navbar-expand-lg">
-            <ul class="navbar-nav d-flex justify-content-between">
+        <div class="container-fluid row border-bottom border-dark dispinla">
+          <nav class="container-fluid navbar navbar-expand-lg">
+            <ul class="container-fluid navbar-nav d-flex justify-content-between">
               <li class="nav-link border-right border-dark">U.S</li>
               <li class="nav-link border-right border-dark">World</li>
               <li class="nav-link border-right border-dark">Business</li>
@@ -62,9 +61,9 @@
             </ul>
           </nav>
         </div>
-        <div class="row border-bottom border-dark dispinla">
-          <nav class="navbar navbar-expand-lg">
-            <ul class="navbar-nav d-flex justify-content-between">
+        <div class="container-fluid row border-bottom border-dark dispinla">
+          <nav class="container-fluid navbar navbar-expand-lg">
+            <ul class="container-fluid navbar-nav d-flex justify-content-between">
               <li class="nav-link border-right border-dark">TRENDING</li>
               <li class="nav-link border-right border-dark">JOE BIDEN</li>
               <li class="nav-link border-right border-dark">DONALD TRUMP</li>
@@ -80,6 +79,26 @@
         </div>
       </div>
     </header>
+
+    <main class="container">   
+
+      <section class="row">
+        <div id="column-1" class="col-12 col-lg-5 col-xl-4 bg-danger">
+          jl;adfad
+        </div>
+        <div id="column-1" class="col-12 col-lg-7 col-xl-4 bg-warning">
+          asdfasdf
+        </div>
+        <div id="column-1" class="col-12 col-xl-4 bg-info ">
+          asdfasdf
+        </div>
+
+        
+
+
+      </section>      
+    </main>
+    
     <div class="jumbotron"></div>
     <footer>
       <div class="container">
@@ -88,7 +107,7 @@
         >
           <div class="d-flex flex-wrap align-items-baseline">
             <img
-              class="logobtmm"
+              class="logo"
               src="assets/images/newsweek-vector-logo.png"
               alt=""
             />
