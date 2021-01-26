@@ -16,6 +16,11 @@
   width: 95px;
 }
 
+.TabletCent{
+  max-width: 500px;
+  margin: auto;
+}
+
 @media only screen and (min-width: 992px) {
   .logo {
     max-width: 396px;
