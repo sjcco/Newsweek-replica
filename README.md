@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://sjcco.github.io/Newsweek-replica/.)
 
 
 ## Authors
@@ -26,8 +26,8 @@
 
 👤 **Author2**
 
-- GitHub: 
-- Twitter: 
+- GitHub: [@sjcco](https://github.com/sjcco)
+- Twitter: [@CarlosCamposO](https://twitter.com/CarlosCamposO)
 - LinkedIn: 
 
 ## 🤝 Contributing
