@@ -12,14 +12,24 @@
   left: 0;
 }
 
-.seventyfive-sq {
-  height: 95px;
-  width: 95px;
-}
-
 .TabletCent {
   max-width: 500px;
   margin: auto;
+}
+
+.border-gray {
+  border-color: gray;
+}
+
+.fs-7 {
+  font-size: 0.83rem;
+}
+
+.c-bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 992px) {
