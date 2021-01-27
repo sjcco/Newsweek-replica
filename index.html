@@ -8,12 +8,9 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -24,12 +21,13 @@
     <title>Newsweek</title>
   </head>
   <body>
-    <header>
-      <div class="container">
+    <div class="container-xl px-0 ">
+    <header class="p3">
+      <div class="container-fluid px-0">
         <div
           class="d-flex flex-row justify-content-between align-items-baseline mainNav"
         >
-          <div class="d-none d-lg-block text-white pl-3">
+          <div class="d-none d-lg-block text-white align-self-end font-weight-bold my-2 px-4 py-1">
             Wed, Jan 20, 2021
           </div>
           <div class="">
@@ -39,56 +37,54 @@
               alt="Responsive image"
             />
           </div>
-          <div class="d-flex align-items-baseline">
-            <p class="text-white font-weight-bold px-3 py-0">LOGIN</p>
+          <div class="d-flex align-self-end my-2 px-4">
+            <p class="text-white align-self-end font-weight-bold my-0 px-3 py-1">LOGIN</p>
 
-            <button type="button" class="btn-warning font-weight-bold mr-3">
+            <button type="button" class="rounded-pill btn-warning font-weight-bold mr-3">
               SUBSCRIBE <i class="fas fa-angle-right"></i>
             </button>
           </div>
         </div>
-        <div class="container-fluid row border-bottom border-dark dispinla">
+        <div class="container-fluid row border-bottom border-gray dispinla">
           <nav class="container-fluid navbar navbar-expand-lg">
             <ul
               class="container-fluid navbar-nav d-flex justify-content-between"
             >
-              <li class="nav-link border-right border-dark">U.S</li>
-              <li class="nav-link border-right border-dark">World</li>
-              <li class="nav-link border-right border-dark">Business</li>
-              <li class="nav-link border-right border-dark">Tech & Science</li>
-              <li class="nav-link border-right border-dark">Culture</li>
-              <li class="nav-link border-right border-dark">Newsgeek</li>
-              <li class="nav-link border-right border-dark">Sports</li>
-              <li class="nav-link border-right border-dark">Health</li>
-              <li class="nav-link border-right border-dark">The Debate</li>
-              <li class="nav-link border-right border-dark">Experts</li>
-              <li class="nav-link border-right border-dark">Vantage</li>
-              <li class="nav-link border-right border-dark">Search</li>
+              <li class="nav-link border-end border-gray">U.S</li>
+              <li class="nav-link border-end border-gray">World</li>
+              <li class="nav-link border-end border-gray">Business</li>
+              <li class="nav-link border-end border-gray">Tech & Science</li>
+              <li class="nav-link border-end border-gray">Culture</li>
+              <li class="nav-link border-end border-gray">Newsgeek</li>
+              <li class="nav-link border-end border-gray">Sports</li>
+              <li class="nav-link border-end border-gray">Health</li>
+              <li class="nav-link border-end border-gray">The Debate</li>
+              <li class="nav-link border-end border-gray">Experts</li>
+              <li class="nav-link border-end border-gray">Vantage</li>
+              <li class="nav-link border-end border-gray">Search</li>
             </ul>
           </nav>
         </div>
-        <div class="container-fluid row border-bottom border-dark dispinla">
+        <div class="container-fluid row border-bottom border-gray dispinla">
           <nav class="container-fluid navbar navbar-expand-lg">
             <ul
               class="container-fluid navbar-nav d-flex justify-content-between"
             >
-              <li class="nav-link border-right border-dark">TRENDING</li>
-              <li class="nav-link border-right border-dark">JOE BIDEN</li>
-              <li class="nav-link border-right border-dark">DONALD TRUMP</li>
-              <li class="nav-link border-right border-dark">INAGURATION</li>
-              <li class="nav-link border-right border-dark">CORONAVIRUS</li>
-              <li class="nav-link border-right border-dark">
-                STIMULUS PACKAGE
-              </li>
-              <li class="nav-link border-right border-dark">VACCINE</li>
-              <li class="nav-link border-right border-dark">CAPITOL RIOTS</li>
+              <li class="nav-link border-end border-gray">TRENDING</li>
+              <li class="nav-link border-end border-gray">JOE BIDEN</li>
+              <li class="nav-link border-end border-gray">DONALD TRUMP</li>
+              <li class="nav-link border-end border-gray">INAGURATION</li>
+              <li class="nav-link border-end border-gray">CORONAVIRUS</li>
+              <li class="nav-link border-end border-gray">STIMULUS PACKAGE</li>
+              <li class="nav-link border-end border-gray">VACCINE</li>
+              <li class="nav-link border-end border-gray">CAPITOL RIOTS</li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
 
-    <main class="container">
+    <main class="">
       <section class="row mt-3">
         <div id="column-1" class="col-12 col-lg-5 col-xl-3">
           <div class="">
@@ -325,20 +321,20 @@
           </div>
           <div class="mt-2">
             <h4 class="text-muted">MY TURN</h4>
-            <div class="card-deck">
-              <div class="card mr-1">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <div class="col">
                 <img src="assets/images/my turn 1.jpg" class="card-img-top" alt="Men hugging">
                 <div class="card-body px-0 mx-0">
                   <h6 class="card-title text-muted px-0 mx-2 text-left">'I Married My Best Friend to Avoid Inheritance Tax'</h5>
                 </div>
               </div>
-              <div class="card mx-1">
+              <div class="col">
                 <img src="assets/images/my turn 2.jpg" class="card-img-top" alt="Woman with dogs">
                 <div class="card-body px-0 mx-0">
                   <h6 class="card-title text-muted px-0 mx-2 text-left">'I've Rescued Hundreds of Special Needs Dogs'</h5>
                 </div>
               </div>
-              <div class="card ml-1">
+              <div class="col">
                 <img src="assets/images/my turn 3.jpg" class="card-img-top" alt="Soldier smiling">
                 <div class="card-body px-0 mx-0">
                   <h6 class="card-title text-muted px-0 mx-2 text-left">Why I Accepted Trump's Medal Of Arts</h5>
@@ -347,21 +343,21 @@
             </div>
           </div>
           <div class="mt-3">
-            <h4 class="text-muted">CULTURE &amp; TRAVEL</h4>
-            <div class="card-deck">
-              <div class="card mr-1">
+            <h4 class="text-muted">CULTURE & TRAVEL</h4>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <div class="col">
                 <img src="assets/images/culture and travel 1.jpg" class="card-img-top" alt="Man in the cold">
                 <div class="card-body px-0 mx-0">
                   <h6 class="card-title text-muted px-0 mx-2 text-left">The Secrets to Happiness Around the World</h5>
                 </div>
               </div>
-              <div class="card mx-1">
+              <div class="col">
                 <img src="assets/images/culture and travel 2.jpg" class="card-img-top" alt="church">
                 <div class="card-body px-0 mx-0">
                   <h6 class="card-title text-muted px-0 mx-2 text-left">'Where We Are Dreaming of Traveling in 2021</h5>
                 </div>
               </div>
-              <div class="card ml-1">
+              <div class="col">
                 <img src="assets/images/culture and travel 3.jpg" class="card-img-top" alt="Billie Ellish">
                 <div class="card-body px-0 mx-0">
                   <h6 class="card-title text-muted px-0 mx-2 text-left">These Are the Top 100 Songs of 2020</h5>
@@ -372,84 +368,84 @@
           <div class="mt-4">
             <h4 class="text-muted">MORE STORIES</h4>
             <div class="d-flex flex-column">
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/moreStories-1.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</h5>
                         <span class="">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/moreStories2.png" alt="">
                       <div class="mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">Evangelicals, Police, Who Disliked Trump Immigration Policy May Back Reform</h5>
                         <span class="">Religious conservatives and law-enforcement officers who were uncomfortable with family separations may be open to immigration reform.</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/moreStories3.png" alt="">
                       <div class="mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">Donald Trump Pardons Israeli Spy Handler Who Paid for American Secrets</h5>
                         <span class="">The president's flurry of pardons include former Israeli air force colonel Aviem Sella, who recruited the infamous spy Jonathan Pollard.</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="seventyfive-sq" src="assets/images/moreStories4.png" alt="">
                       <div class="px-1 py-1 mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">Joe Biden's Schedule for His First Day As President</h5>
                         <span class="">Joe Biden will be sworn in as the 46th president of the United States at noon on Wednesday. Kamala Harris will become the 49th vice president</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="seventyfive-sq" src="assets/images/moreStories5.png" alt="">
                       <div class="px-1 py-1 mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">U.S. Cut Russia Consulate Phones Before Trump's Last Day, Moscow Claims</h5>
                         <span class="">The Russian embassy in Washington, DC has sent a diplomatic note to the State Department after the phones at its New York consulate stopped working.</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="seventyfive-sq" src="assets/images/moreStories6.png" alt="">
                       <div class="px-1 py-1 mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">Mississippi Bill Classifying Abortions as Murder Introduced by GOP Lawmaker</h5>
                         <span class="">Rep. Dan Eubanks also introduced a bill to ban employers from mandating COVID-19 vaccines for their staff.</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="seventyfive-sq" src="assets/images/moreStories7.png" alt="">
                       <div class="px-1 py-1 mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">GOP Rep. John Katko Says Capitol Riots 'Worse Than People Realized'</h5>
                         <span class="">New York Rep. John Katko said classified briefings he had received about the January 6 unrest were "deeply troubling."</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="seventyfive-sq" src="assets/images/moreStories8.png" alt="">
                       <div class="px-1 py-1 mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">Jon Ossoff, Raphael Warnock Certified by Georgia as Senate Runoff Winners</h5>
                         <span class="">The two victories give Democrats majority control of the Senate, since Kamala Harris can break a tie vote</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="seventyfive-sq" src="assets/images/moreStories9.png" alt="">
                       <div class="px-1 py-1 mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">Lauren Boebert Rejects Claims She Gave Rioters Capitol Tour</h5>
                         <span class="">The Colorado congresswoman said that the claims made on CNN by Rep. Steve Cohen had endangered her family and her staff.</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="seventyfive-sq" src="assets/images/moreStories10.png" alt="">
                       <div class="px-1 py-1 mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">Trump Allies Await Pardons News as Clock Ticks Down on Presidential Powers</h5>
                         <span class="">Trump Allies Await Pardons News as Clock Ticks Down on Presidential Powers</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="seventyfive-sq" src="assets/images/moreStories11.png" alt="">
                       <div class="px-1 py-1 mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">National Guard Activated in 30 States Over Fears of Inauguration Violence</h5>
                         <span class="">From California to Michigan, dozens of states will be bolstering security, including some declaring states of emergency and summoning the National Guard.</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="seventyfive-sq" src="assets/images/moreStories12.png" alt="">
                       <div class="px-1 py-1 mx-2 d-flex flex-column">
                         <h5 class="font-weight-bold">Christians in Crosshairs After Capitol Riot</h5>
@@ -461,63 +457,63 @@
           <div class="mt-3">
             <h4 class="text-muted">LATEST NEWS</h4>
             <div class="d-flex flex-column">
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/latest1.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">'Cobra Kai' Season 4 Expected to Start Shooting Today</h5>
                         <span class="">'Cobra Kai' Season 4 Expected to Start Shooting Today</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/latest2.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">Fake Gen. Hyten Telegram Channel Spreads Qanon Slogans Before Inauguration</h5>
                         <span class="">Gen. Hyten, who is the vice chairman of the Joint Chiefs of Staff and the country's second...</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/latest3.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">MyPillow Products Dropped Because of Poor Sales Not Politics, Stores Say</h5>
                         <span class="">MyPillow CEO Mike Lindell claimed several retailers were succumbing to pressure from campaigners...</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/latest4.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">Trump's Pardon List Leaves Off Snowden, Assange and Winner</h5>
                         <span class="">Trump granted clemency to dozens of people in the final hours of his presidency.</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/latest5.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">'NCIS' Season 18 Reveals Why Gibbs Shot McGee</h5>
                         <span class="">"NCIS" Season 18, Episode 5 on CBS finally came back to the opening of the season, which saw Gibbs...</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/latest6.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">Kodak Black Pardoned by Trump Two Months After $1 Million Charity Pledge</h5>
                         <span class="">The rapper is serving a four-year sentence in federal prison after pleading guilty to possession of...</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/latest7.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">Trump Ally Gaetz Wants More GOP Leaders With Outgoing President's 'Spirit'</h5>
                         <span class="">The Republican congressman spoke of looking to "continue to harness the energy of the Trump...</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/latest8.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">These Places Are Running Out of COVID Vaccines in the U.S.</h5>
                         <span class="">New York City, the country's most populous city, was reported to have enough vaccines to administer...</span>
                       </div>
               </div>
-              <div class="d-flex pb-1 my-2 border-bottom border-secondary">
+              <div class="d-flex pb-1 my-2 border-bottom border-gray">
                       <img class="px-1 py-1 seventyfive-sq" src="assets/images/latest9.png" alt="">
                       <div class="mx-1 d-flex flex-column">
                         <h5 class="font-weight-bold">Meghan Markle Details Leaked to U.K. Tabloid by 'High-Grade' Royal Source</h5>
@@ -531,9 +527,9 @@
 
 
         <div id="column-3" class="col-12 col-xl-3">
-          <h3 class="text-muted border-bottom border-dark">THE DEBATE</h3>
-          <div class="d-flex flex-column align-items-stretch border-bottom border-dark">
-            <div class="d-flex  border-bottom border-dark pb-3">
+          <h3 class="text-muted border-bottom border-gray">THE DEBATE</h3>
+          <div class="d-flex flex-column align-items-stretch border-bottom border-gray">
+            <div class="d-flex  border-bottom border-gray pb-3">
                     <img class="seventyfive-sq align-self-center" src="assets/images/face-1.png" width="63" height="63" alt="">
                     <div class="mx-1 d-flex flex-column">
                       <h6 class="font-weight-bold">Media Have Every Right to Cancel Trump</h6>
@@ -541,9 +537,9 @@
                     </div>
             </div>
 
-            <div class="rounded-circle bg-dark p-1 align-self-center border-top border-bottom border-dark text-light">VS</div>
+            <div class="rounded-circle bg-dark p-1 align-self-center border-top border-bottom border-gray text-light">VS</div>
 
-            <div class="d-flex border-top border-dark p-3">
+            <div class="d-flex border-top border-gray p-3">
               <div class="mx-1 d-flex flex-column">
                 <h6 class="font-weight-bold">After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens</h6>
                 <span class="font-weight-bold small">BY RACHEL BOVARD</span>
@@ -555,42 +551,42 @@
 
           <h4 class="text-muted">OPINION</h4>
           <div class="d-flex flex-column align-items-stretch">
-            <div class="d-flex border-bottom border-dark p-3">
+            <div class="d-flex border-bottom border-gray p-3">
                     <img class="seventyfive-sq align-self-center" src="assets/images/opinion 1.png" width="63" height="63" alt="">
                     <div class="mx-1 d-flex flex-column">
                       <h6 class="font-weight-bold">U.S. Supply Chain: Stop Driving Blind</h6>
                       <span class="font-weight-bold small">BY FRANK CILLUFFO AND STEWART BAKER</span>
                     </div>
             </div>
-            <div class="d-flex border-bottom border-dark p-3">
+            <div class="d-flex border-bottom border-gray p-3">
                     <img class="seventyfive-sq align-self-center" src="assets/images/opinion 2.png" width="63" height="63" alt="">
                     <div class="mx-1 d-flex flex-column">
                       <h6 class="font-weight-bold">After Violence at the Capitol, Congress Must Ensure Election Integrity</h6>
                       <span class="font-weight-bold small">BY RICK SCOTT</span>
                     </div>
             </div>
-            <div class="d-flex border-bottom border-dark p-3">
+            <div class="d-flex border-bottom border-gray p-3">
                     <img class="seventyfive-sq align-self-center" src="assets/images/opinion 3.png" width="63" height="63" alt="">
                     <div class="mx-1 d-flex flex-column">
                       <h6 class="font-weight-bold">Despite January 6, Trump Leaves a Legacy of Trust with Voters</h6>
                       <span class="font-weight-bold small">BY NIGEL FARAGE</span>
                     </div>
             </div>
-            <div class="d-flex border-bottom border-dark p-3">
+            <div class="d-flex border-bottom border-gray p-3">
                     <img class="seventyfive-sq align-self-center" src="assets/images/opinion 4.png" width="63" height="63" alt="">
                     <div class="mx-1 d-flex flex-column">
                       <h6 class="font-weight-bold">Narcissism and Nihilism on Capitol Hill</h6>
                       <span class="font-weight-bold small">BY PHILIP JEFFERY</span>
                     </div>
             </div>
-            <div class="d-flex border-bottom border-dark p-3">
+            <div class="d-flex border-bottom border-gray p-3">
                     <img class="seventyfive-sq align-self-center" src="assets/images/opinion 5.png" width="63" height="63" alt="">
                     <div class="mx-1 d-flex flex-column">
                       <h6 class="font-weight-bold">Exit Trump, Tragic American Hero</h6>
                       <span class="font-weight-bold small">BY BRUCE ABRAMSON</span>
                     </div>
             </div>
-            <div class="d-flex border-bottom border-dark p-3">
+            <div class="d-flex border-bottom border-gray p-3">
                     <img class="seventyfive-sq align-self-center" src="assets/images/opinion 6.png" width="63" height="63" alt="">
                     <div class="mx-1 d-flex flex-column">
                       <h6 class="font-weight-bold"> 46th President Takes Office, Let's Discuss the 47th
@@ -598,7 +594,7 @@
                       <span class="font-weight-bold small">BY MARK DAVIS</span>
                     </div>
             </div>
-            <div class="d-flex border-bottom border-dark p-3">
+            <div class="d-flex border-bottom border-gray p-3">
                     <img class="seventyfive-sq align-self-center" src="assets/images/opinion 7.png" width="63" height="63" alt="">
                     <div class="mx-1 d-flex flex-column">
                       <h6 class="font-weight-bold">Is the European Union Combating or Whitewashing Anti-Semitism?</h6>
@@ -734,17 +730,13 @@
     </main>
 
     <div class="jumbotron"></div>
-    <footer>
-      <div class="container">
+    <footer class="px-0 py-2 mx-0 my-3">
+      <div class="">
         <div
-          class="d-flex flex-wrap justify-content-between align-items-baseline border-bottom border-dark pb-3"
+          class="d-flex flex-wrap justify-content-between align-items-baseline border-bottom border-gray pb-3"
         >
           <div class="d-flex flex-wrap align-items-baseline">
-            <img
-              class="logo"
-              src="assets/images/newsweek-vector-logo.png"
-              alt=""
-            />
+            <img class="logo" src="assets/images/newsweek-vector-logo.png" alt=""/>
             <span>© 2021 NEWSWEEK DIGITAL LLC</span>
           </div>
           <div>
@@ -769,46 +761,36 @@
         </div>
         <div>
           <div class="d-flex">
-            <h5>Editions</h5>
-            <div class="d-flex flex-wrap">
-              <div class="mx-2 border-right border-dark pr-1">U.S Edition</div>
-              <div class="mx-2 border-right border-dark pr-1">日本</div>
-              <div class="mx-2 border-right border-dark pr-1">Pakistan</div>
-              <div class="mx-2 border-right border-dark pr-1">Polska</div>
-              <div class="mx-2 border-right border-dark pr-1">Romånia</div>
+            <h5 class="px-2 py-2 text-muted">Editions</h5>
+            <div class="d-flex flex-wrap border-bottom border-gray py-2">
+              <div class="border-end border-gray text-muted px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">U.S Edition</a></div>
+              <div class="border-end border-gray text-muted px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">日本</a></div>
+              <div class="border-end border-gray text-muted px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Pakistan</a></div>
+              <div class="border-end border-gray text-muted px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Polska</a></div>
+              <div class="border-end border-gray text-muted px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Romånia</a></div>
             </div>
           </div>
           <div>
-            <div class="d-flex flex-wrap">
-              <div class="mx-2 border-right border-dark pr-1">About Us</div>
-              <div class="mx-2 border-right border-dark pr-1">Corrections</div>
-              <div class="mx-2 border-right border-dark pr-1">Contact Us</div>
-              <div class="mx-2 border-right border-dark pr-1">
-                Editorial Guidedivnes
-              </div>
-              <div class="mx-2 border-right border-dark pr-1">Advertise</div>
-              <div class="mx-2 border-right border-dark pr-1">Copyright</div>
-              <div class="mx-2 border-right border-dark pr-1">
-                Terms and Conditions
-              </div>
-              <div class="mx-2 border-right border-dark pr-1">
-                Privacy Policy
-              </div>
-              <div class="mx-2 border-right border-dark pr-1">
-                Cookie Policy
-              </div>
-              <div class="mx-2 border-right border-dark pr-1">
-                Terms of Sale
-              </div>
-              <div class="mx-2 border-right border-dark pr-1">Archive</div>
-              <div class="mx-2 border-right border-dark pr-1">
-                Announcements
-              </div>
+            <div class="d-flex flex-wrap border-bottom border-gray py-2">
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">About Us</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Corrections</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Contact Us</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Editorial Guidedivnes</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Advertise</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Copyright</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Terms and Conditions</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Privacy Policy</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Cookie Policy</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Terms of Sale</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Archive</a></div>
+              <div class="border-end border-gray fs-7  px-2"><a class="m-0 p-0 text-decoration-none text-muted text-dark" href="#">Announcements</a></div>
             </div>
           </div>
         </div>
       </div>
     </footer>
+
+  </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script
