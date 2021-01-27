@@ -31,10 +31,25 @@
   background-clip: border-box;
   background-size: cover;
 }
+.s-25, .d4-t2-m1 {
+  width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+  .s-25 {
+    width: 25%;
+  }
+  .d4-t2-m1 {
+    width: 50%;
+  }
+}
 
 @media only screen and (min-width: 992px) {
   .logo {
     max-width: 396px;
+  }
+  .d4-t2-m1{
+    width: 25%;
   }
 }
 
