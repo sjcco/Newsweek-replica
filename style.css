@@ -31,9 +31,30 @@
   background-clip: border-box;
   background-size: cover;
 }
+
+.c-bg-gray {
+  background-color: #F4F5F6;
+}
+
 .s-25, .d4-t2-m1 {
   width: 100%
 }
+
+.pap1 {
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.pap2 {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+
+.papcont {
+  position: relative;
+}
+
 
 @media only screen and (min-width: 768px) {
   .s-25 {
