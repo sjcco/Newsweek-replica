@@ -68,7 +68,16 @@
 
 @media only screen and (min-width: 992px) {
   .logo {
-    max-width: 396px;
+    max-width: fit-content;
+    width: 700px;
+    display: block;
+    background-color: #0000FF;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .logo:hover{
+    width: 800px;
+    transform: rotate(360deg);
   }
 
   .d4-t2-m1 {
