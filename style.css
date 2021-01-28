@@ -56,6 +56,27 @@
   position: relative;
 }
 
+.col-trans-hov {
+  color: #6c757d;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+
+.col-trans-hov:hover {
+  color: red;
+}
+
+.big-at-hov {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+
+.big-at-hov:hover {
+  padding: 6px;
+}
+
 @media only screen and (min-width: 768px) {
   .s-25 {
     width: 25%;
