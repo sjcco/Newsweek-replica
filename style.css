@@ -1,0 +1,77 @@
+.logo {
+  max-width: 100px;
+}
+
+.mainNav {
+  background-color: #f72210;
+}
+
+.c-position-bl {
+  bottom: 0;
+  left: 0;
+}
+
+.TabletCent {
+  max-width: 500px;
+  margin: auto;
+}
+
+.border-gray {
+  border-color: gray;
+}
+
+.fs-7 {
+  font-size: 0.83rem;
+}
+
+.c-bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+  background-size: cover;
+}
+
+.c-bg-gray {
+  background-color: #f4f5f6;
+}
+
+.s-25,
+.d4-t2-m1 {
+  width: 100%;
+}
+
+.pap1 {
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.pap2 {
+  top: 30px;
+  left: 70px;
+}
+
+@media only screen and (min-width: 768px) {
+  .s-25 {
+    width: 25%;
+  }
+
+  .d4-t2-m1 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .logo {
+    max-width: 396px;
+  }
+
+  .d4-t2-m1 {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .dispinla {
+    display: none;
+  }
+}
